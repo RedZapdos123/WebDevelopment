@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.controls{
+    margin-bottom: 20px;
+}
+
+#dice-number{
+    padding: 5px;
+    font-size: 1rem;
+    width: 50px;
+}
+
+button{
+    padding: 8px 12px;
+    font-size: 1rem;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #b10404;
+}
+
+#dice-display{
+    margin-top: 20px;
+}
+
+.dice{
+    display: inline-block;
+    font-size: 2rem;
+    margin: 10px;
+    padding: 15px;
+    background: #007bff;
+    color: #fff;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
