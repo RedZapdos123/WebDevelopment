@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Advanced Calculator</h1>
+    </header>
+    <div class="calculator">
+        <input type="text" id="display" class="display" disabled>
+        <div class="buttons">
+            <button onclick="append('7')">7</button>
+            <button onclick="append('8')">8</button>
+            <button onclick="append('9')">9</button>
+            <button onclick="operate('/')">/</button>
+            <button onclick="append('4')">4</button>
+            <button onclick="append('5')">5</button>
+            <button onclick="append('6')">6</button>
+            <button onclick="operate('*')">*</button>
+            <button onclick="append('1')">1</button>
+            <button onclick="append('2')">2</button>
+            <button onclick="append('3')">3</button>
+            <button onclick="operate('-')">-</button>
+            <button onclick="append('.')">.</button>
+            <button onclick="append('0')">0</button>
+            <button onclick="append('(')">(</button>
+            <button onclick="append(')')">)</button>
+            <button onclick="constant('Math.PI')">π</button>
+            <button onclick="constant('Math.E')">e</button>
+            <button class= "backClear" onclick="clearDisplay()">C</button>
+            <button class="backClear" onclick="deleteLast()">←</button>
+            <button onclick="operate('^')">^</button>
+            <button onclick="operate('+')">+</button>
+            <button onclick="operate('root')">√x</button>
+            <button onclick="operate('factorial')">x!</button>
+            <button onclick="operate('sin')">sin</button>
+            <button onclick="operate('cos')">cos</button>
+            <button onclick="operate('tan')">tan</button>
+            <button onclick="operate('log')">log</button>
+            <button class="equals" onclick="calculate()">=</button>
+        </div>
+    </div>
+    <footer class="footNote">
+        <pre>
+            <ul>
+                <li>For functions, type in the value and then press the function, you want to perform.</li>
+                <li>For normal operations, just do it normally.</li>
+                <li>Made by RedZapdos.</li>
+            </ul>
+        </pre>
+    </footer>
+    <script src="advancedCalculator.js"></script>
+</body>
+</html>
