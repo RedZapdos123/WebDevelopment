@@ -15,11 +15,11 @@ function deleteLast(){
 }
 
 function operate(operator){
-    if (operator === 'factorial'){
+    if(operator === 'factorial'){
         display.value = factorial(Number(display.value));
         return;
     }
-    if (operator === 'root'){
+    if(operator === 'root'){
         display.value = Math.sqrt(Number(display.value));
         return;
     }
