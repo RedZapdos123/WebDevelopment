@@ -83,7 +83,8 @@ function calculate(){
         }
         display.value = result;
         currentOperation = '';
-    } catch(error){
+    }
+    catch(error){
         display.value = 'Error';
     }
 }
