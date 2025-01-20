@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+    text-align: center;
+    width: 450px;
+}
+
+h1{
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.inputSection{
+    margin: 20px 0;
+}
+
+.display{
+    border: 2px solid blue;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: white;
+    text-align: left;
+    min-height: 50px;
+    color: grey;
+    font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+button{
+    padding: 10px 16px;
+    font-size: 14px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: skyblue;
+}
+
+button.clear{
+    background-color: orangered;
+}
+
+button.clear:hover{
+    background-color: red;
+}
+
+button.calculate{
+    background-color: greenyellow;
+}
+
+button.calculate:hover{
+    background-color: green;
+}
+
+button.back{
+    background-color: orangered;
+    color: #333;
+}
+
+button.back:hover{
+    background-color: red;
+}
+
+.result{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}

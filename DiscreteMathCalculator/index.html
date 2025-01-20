@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Logic Calculator</h1>
+        <div class="inputSection">
+            <div id="display" class="display">Enter Expression</div>
+            <div class="buttons">
+                <button onclick="appendToExpression('1')">1</button>
+                <button onclick="appendToExpression('0')">0</button>
+                <button onclick="appendToExpression('∧')">∧ (AND)</button>
+                <button onclick="appendToExpression('∨')">∨ (OR)</button>
+                <button onclick="appendToExpression('⊕')">⊕ (XOR)</button>
+                <button onclick="appendToExpression('¬')">¬ (NOT)</button>
+                <button onclick="appendToExpression('(')">(</button>
+                <button onclick="appendToExpression(')')">)</button>
+                <button onclick="appendToExpression('=>')">⇒ (IMPLIES)</button>
+                <button onclick="appendToExpression('<=>')">⇔ (DOUBLE IMPLIES)</button>
+                <button onclick="removeLastCharacter()" class="back">Back←</button>
+                <button onclick="clearExpression()" class="clear">Clear</button>
+                <button onclick="calculateExpression()" class="calculate">= (Calculate)</button>
+            </div>
+        </div>
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
