@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electronica</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="headerLeft">
+      <a href="index.html" class="home">Home</a>
+    </div>
+
+    <h1>Electronica</h1>
+
+    <div class="headerRight">
+      <a href="cart.html" class="cart">Cart</a>
+    </div>
+
+    <div class="searchContainer">
+      <select class="categoryDropdown">
+        <option value="all">All Categories</option>
+        <option value="microcontrollers">Microcontrollers</option>
+        <option value="breadboardComponents">Breadboard Components</option>
+      </select>
+      <input type="text" placeholder="Search for products..." class="searchBar">
+      <button class="search">Search</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="productList">
+      <div class="productCards">
+        <img src="images/esp32.jpg" alt="ESP32-WROOM">
+        <h2>ESP32-WROOM</h2>
+        <p>Category: Microcontroller</p>
+        <p>Product Code: MC-001</p>
+        <p>Price: ₹300</p>
+        <p>A powerful microcontroller with Wi-Fi and Bluetooth.</p>
+        <label for="quantityESP32">Quantity:</label>
+        <input type="number" id="quantityESP32" name="quantity" min="1" value="1">
+        <div class="productButtons">
+          <a href="checkout.html" class="buy">Buy</a>
+          <button class="AddToCart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="productCards">
+        <img src="images/raspberryPico.jpg" alt="Raspberry Pi Pico W">
+        <h2>Raspberry Pi Pico W</h2>
+        <p>Category: Microcontroller</p>
+        <p>Product Code: MC-002</p>
+        <p>Price: ₹350</p>
+        <p>A small, affordable microcontroller with wireless connectivity.</p>
+        <label for="quantityRaspberryPico">Quantity:</label>
+        <input type="number" id="quantityRaspberryPico" name="quantity" min="1" value="1">
+        <div class="product-buttons">
+          <a href="checkout.html" class="buy">Buy</a>
+          <button class="AddToCart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="productCards">
+        <img src="images/arduinoUNO.jpg" alt="Arduino UNO">
+        <h2>Arduino UNO</h2>
+        <p>Category: Microcontroller</p>
+        <p>Product Code: MC-003</p>
+        <p>Price: ₹450</p>
+        <p>The most popular microcontroller for beginners and makers.</p>
+        <label for="quantityArdunioUNO">Quantity:</label>
+        <input type="number" id="quantityArdunioUNO" name="quantity" min="1" value="1">
+        <div class="productButtons">
+          <a href="checkout.html" class="buy">Buy</a>
+          <button class="AddToCart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="productCards">
+        <img src="images/resistors.jpg" alt="Resistors (Pack of 10)">
+        <h2>Resistors (Pack of 10)</h2>
+        <p>Category: Breadboard Component</p>
+        <p>Product Code: BC-001</p>
+        <p>Price: ₹50</p>
+        <p>High-quality resistors suitable for prototyping.</p>
+        <label for="quantityResistors">Quantity:</label>
+        <input type="number" id="quantityResistors" name="quantity" min="1" value="1">
+        <div class="productButtons">
+          <a href="checkout.html" class="buy">Buy</a>
+          <button class="AddToCart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="productCards">
+        <img src="images/mosfet.jpg" alt="MOSFETs (Pack of 5)">
+        <h2>MOSFETs (Pack of 5)</h2>
+        <p>Category: Breadboard Component</p>
+        <p>Product Code: BC-002</p>
+        <p>Price: ₹120</p>
+        <p>Reliable MOSFETs for power management and switching.</p>
+        <label for="quantity-mosfet">Quantity:</label>
+        <input type="number" id="quantityMosfet" name="quantity" min="1" value="1">
+        <div class="product-buttons">
+          <a href="checkout.html" class="buy">Buy</a>
+          <button class="AddToCart">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact Us:</p>
+    <p>Phone: +1234567890 | Email: support@electronica.com</p>
+    <p>Address: Unknown, State of Unknown, Republic of India</p>
+    <p><strong>Disclaimer:</strong> Products will be delivered within a week's time.</p>
+  </footer>
+</body>
+</html>

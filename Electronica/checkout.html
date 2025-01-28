@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout: Electronica</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Electronica</h1>
+    <a href="index.html" class="home">Home</a>
+  </header>
+
+  <main>
+    <section class="cartList">
+      <h2>Cart Items:</h2>
+      <ul class="cartItems">
+        <li>ESP32 WROOM (Quantity: 2): ₹600</li> 
+      </ul>
+    </section>
+
+    <form class="buyForm">
+      <h2>Checkout</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" rows="4" required></textarea>
+      <div class="paymentOptions">
+        <button type="submit" class="pay">Pay</button>
+        <button type="button" class="cod">Cash on Delivery</button>
+      </div>
+
+      <p><strong>Note:</strong> Products will be delivered within a week's time. Cash on delivery only.</p>
+      
+    </form>
+  </main>
+
+  <footer>
+    <p>Contact Us:</p>
+    <p>Phone: +1234567890 | Email: support@electronica.com</p>
+    <p>Address: Unknown, State of Unknown, Republic of India</p>
+    <p><strong>Disclaimer:</strong> Products will be delivered within a week's time.</p>
+  </footer>
+
+</body>
+</html>

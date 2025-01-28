@@ -1,0 +1,364 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  }
+  
+header{
+  background-color: gray;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+}
+    
+header .home{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 0.5rem 1rem;
+  background-color: whitesmoke;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+header .home:hover {
+  background-color: grey;
+}
+
+.searchContainer{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.searchBar{
+  padding: 0.5rem;
+  width: 70%;
+  max-width: 400px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search{
+  padding: 0.5rem 1rem;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search:hover{
+  background-color: #777;
+}
+
+.productList{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.productCards{
+  background-color: gainsboro;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.productCards h2{
+  margin: 0 0 0.5rem;
+}
+
+.productCards label{
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.productCards input[type="number"]{
+  width: 60px;
+  padding: 0.3rem;
+  margin: 0.5rem 0;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+
+.productCards img{
+    width: 25%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+  }
+
+.buy{
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.buy:hover{
+  background-color: grey;
+}
+
+.headerLeft{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.headerRight{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.cart,
+.home{
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  color: white;
+  background-color: purple;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cart:hover,
+.home:hover{
+  background-color: violet;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header{
+  text-align: center;
+  padding: 1rem;
+  background-color: orange;
+  color: white;
+  position: relative;
+}
+
+h1{
+  margin: 0;
+}
+
+.headerLeft{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.headerRight{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.cart,
+.home,
+.buy{
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  color: white;
+  background-color: purple;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cart:hover,
+.home:hover,
+.buy:hover{
+  background-color: violet;
+}
+
+.cartContainer{
+  color: black;
+  background-color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.checkoutButtons{
+  margin-top: 1rem;
+}
+
+.searchContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.searchBar{
+  width: 200px;
+  padding: 0.5rem;
+  margin-left: 10px;
+}
+
+.categoryDropdown{
+  padding: 0.5rem;
+  margin-right: 10px;
+}
+
+.search{
+  padding: 0.5rem 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search:hover{
+  background-color: grey;
+}
+
+.product{
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.buy,
+.AddToCart{
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  color: white;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.AddToCart{
+  background-color: orange;
+}
+
+.buy:hover{
+  background-color: darkgreen;
+}
+
+.AddToCart:hover{
+  background-color: orangered;
+}
+
+.cart{
+  background-color: white;
+  color: purple;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart h2{
+  margin: 0 0 1rem;
+}
+
+.cartList{
+  background-color: white;
+  color: black;
+}
+
+.cartItems{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cartItems li{
+  margin-bottom: 0.5rem;
+}
+
+.buyForm{
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buyForm h2{
+  margin: 0 0 1rem;
+}
+
+.buyForm label{
+  display: block;
+  margin: 0.5rem 0 0.2rem;
+}
+
+.buyForm input,
+.buyForm textarea{
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.paymentOptions{
+  display: flex;
+  gap: 10px;
+}
+
+.pay,
+.cod{
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pay:hover,
+.cod:hover{
+  background-color: gray;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+table th,
+table td{
+  border: 1px solid grey;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+table th{
+  background-color: white;
+}
+
+footer{
+  background-color: grey;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+footer p{
+  margin: 0.5rem 0;
+}
+
