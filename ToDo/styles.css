@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+input{
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+}
+
+button{
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    padding: 10px;
+    margin: 5px;
+    background: whitesmoke;
+    cursor: pointer;
+}
+
+li:hover{
+    background: white;
+}
