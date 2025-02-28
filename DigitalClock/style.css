@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#clock{
+    font-size: 30px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+button{
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+button:hover{
+    background-color: gray;
+}
