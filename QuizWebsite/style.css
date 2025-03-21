@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#quiz{
+    border: 1px solid gray;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+}
+
+button{
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.option{
+    display: block;
+    margin: 5px;
+    cursor: pointer;
+}
