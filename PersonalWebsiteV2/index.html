@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Profile</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: whitesmoke;
+        }
+
+        header{
+            text-align: center;
+            padding: 20px;
+            background-color: grey;
+            color: white;
+        }
+
+        header h1{
+            margin: 0;
+        }
+
+        .container{
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+
+        }
+
+        .profilePic{
+            display: block;
+            margin: 0 auto 20px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid grey;
+        }
+
+        h2{
+            border-bottom: 2px solid grey;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        ul{
+            padding-left: 20px;
+        }
+
+        .info{
+            text-align: center;
+            height: 20px;
+            width: 100px;
+            font-size: 14px;
+        }
+
+        .message{
+            text-align: center;
+            height: 20px;
+            width: 500px;
+            font-size: 14px;
+        }
+
+        .submit{
+            text-align: center;
+            font-size: medium;
+        }
+
+        .submit:hover{
+            color: white;
+            background-color: black;
+        }
+
+        footer{
+            text-align: center;
+            padding: 10px;
+            background-color: grey;
+            color: white;
+            margin-top: 20px;
+        }
+
+        footer a{
+            color: greenyellow;
+            text-decoration: none;
+        }
+
+        footer a:hover{
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Mridankan Mandal</h1>
+    </header>
+
+    <div class="container">
+        <img src="photo.jpg" alt="RedZapdos's Photo" class="profilePic">
+
+        <section class="About">
+            <h2>About Me:</h2>
+            <p>I am a programmer who is studying Information Technology with a specialization<br>in Business Informatics at Indain Institute of Information Technology, Allahabad, Prayagraj, India.<br>I like to program microcontrollers like ESP32-WROOM and Raspberry Pi Pico 2 to make some<br>real world applications based devices. I also like to do random things through programming for fun.<br>I am trying out various technologies and various domains of programming, to see what suits me the best.</p>
+        <section>
+
+            <h2>Projects:</h2>
+            <ul>
+                <li>Facial Recongnition Software with YOLOv11 and Insight ArcFAce, with a custom dataset.</li>
+                <li>A heart disease prediction algorithm, made with XGBoost with Optuna.</li>
+                <li>A QR scanner based attendance taking website.</li>
+                <li>An IoT based weather website which collect data from a DHT122 sensor.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Skills:</h2>
+            <ul>
+                <li>Programming Languages: C, C++, Python, Java, JavaScript, HTML and CSS</li>
+                <li>Devloper Operations: Server side operations and CUDA configurations.</li>
+                <li>Languages: Fluent in English, Hindi and Bangla.</li>
+                <li>Web development (MERN stack) Machine Learning, and Deep Learning.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>Connect with me: 
+            <a href="https://www.linkedin.com/in/RedZapdos123" target="_blank">My LinkedIn</a> | 
+            <a href="https://github.com/RedZapdos123" target="_blank">My GitHub</a>
+        </p>
+        <p>Email: <a href="mailto:xerontitan90@outlook.com">xerontitan90@outlook.com</a></p>
+        <form class="Contact">
+            <div><label>Phone Number:</label> <input class="info" type="text" placeholder="1234567890"></div>
+            <div><label>Email:</label> <input class="info" type="text" placeholder="abc@xyz.com"></div>
+            <div><label>Message:</label> <input class="message" type="textarea" placeholder="Write Your Message here."></div>
+            <button class="submit">Submit</button>
+        </form>
+    </footer>
+
+</body>
+
+</html>
